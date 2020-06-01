@@ -7,26 +7,35 @@
     width: 100%;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .header-container{
     display:flex;
     justify-content: flex-end;
     line-height: 30px;
     height:32px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 30px;
+    background-color: ;
 }
 
 .header-container a{
     display: inline-block;
+    padding-left: 1.1em;
+    font-size: 13px;
 }
 
 .header-txt {
-
+    color: rgba(0,0,0,.87);
 }
 
 .header-icons{
     display: flex;
     justify-content: flex-end;
+    padding-left: 1.1em;
 }
 
 .dotted-square{
@@ -39,6 +48,7 @@
 .profile-image{
     width: 32px;
     height:32px;
+    margin-left: 1.1em;
 }
 
 .profile-image img{
@@ -156,6 +166,7 @@ button:activer{
     color: rgba(0,0,0,.54);
     display: grid;
     grid-row: 2;
+    
 }
 
 .footer-A{
@@ -166,12 +177,15 @@ button:activer{
 }
 
 .footer-B{
-    grid-template-columns: 5% 5% 5% 5% 65% 5% 5% 5%;
+    display: flex;
+    justify-content: space-between;
     font-size: 14px;
     line-height: 40px;
+    margin-right: 2em;
 }
 
 .footer-B a{
     display: inline-block;
     padding-left: 27px;
 }
+
